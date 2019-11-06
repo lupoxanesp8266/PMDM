@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ListViewContext</string>
+    <string name="llamar">Llamar</string>
+    <string name="mensaje">Configuración</string>
+    <string name="name">name</string>
+    <string-array name="telfs">
+        <item>Fulanito</item>
+        <item>Mengano</item>
+        <item>Fulano</item>
+        <item>Menganito</item>
+        <item>Isma</item>
+        <item>Baby shark</item>
+        <item>Duduududo</item>
+        <item>Yo</item>
+        <item>Chacho</item>
+        <item>Heeeeeeey</item>
+        <item>Illllo</item>
+    </string-array>
+</resources>

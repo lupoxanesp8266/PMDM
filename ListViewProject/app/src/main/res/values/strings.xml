@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ListViewProject</string>
+    <string name="submit">Submit</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string-array name="semana">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+    </string-array>
+    <string-array name="pais">
+        <item>Francia</item>
+        <item>España</item>
+        <item>Portugal</item>
+        <item>Noruega</item>
+        <item>Finlandia</item>
+        <item>Alemania</item>
+    </string-array>
+</resources>

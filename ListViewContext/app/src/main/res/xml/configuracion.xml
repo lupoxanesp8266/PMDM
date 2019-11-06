@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:textColor="#009688"
+        android:title="Preferencias">
+
+        <EditTextPreference
+            android:defaultValue="Carlos"
+            android:key="name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Nombre" />
+        <EditTextPreference
+            android:defaultValue="true"
+            android:key="password"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Contraseña" />
+        <ListPreference
+            android:defaultValue="false"
+            android:entries="@array/telfs"
+            android:entryValues="@array/telfs"
+            android:key="list_preference_1"
+            android:title="Idioma" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Ajustes">
+        <PreferenceScreen android:title="Ajustes de tema">
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="dark_mode"
+                android:title="Oscuro" />
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="switch_preference_1"
+                android:switchTextOff="SIn Sonido"
+                android:switchTextOn="Sonido"
+                android:title="Sonido" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <Preference android:title="Acerca de...">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://myautoRoom.web.app"/>
+    </Preference>
+    <Preference android:title="Click"
+        android:icon="@drawable/ic_launcher_background">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://myautoRoom.web.app"/>
+    </Preference>
+</PreferenceScreen>

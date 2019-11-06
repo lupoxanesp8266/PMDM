@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_switch"
+        android:checkable="true"
+        android:title="Sonido"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="always" />
+    <item android:title="Azul">
+        <menu >
+            <item
+                android:id="@+id/textoAzul"
+                android:title="Texto" />
+            <item
+                android:id="@+id/fondoAzul"
+                android:title="Fondo" />
+        </menu>
+    </item>
+    <item android:title="Verde">
+        <menu >
+            <item
+                android:id="@+id/textoVerde"
+                android:title="Texto" />
+            <item
+                android:id="@+id/fondoVerde"
+                android:title="Fondo" />
+        </menu>
+    </item>
+    <item android:title="Rojo">
+        <menu>
+            <item
+                android:id="@+id/textoRojo"
+                android:title="Texto" />
+            <item
+                android:id="@+id/fondoRojo"
+                android:title="Fondo" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/help"
+        android:title="Ayuda" />
+    <item
+        android:id="@+id/about"
+        android:title="Acerca de" />
+</menu>

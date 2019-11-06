@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Button</string>
+    <string name="sumar_1">Sumar 1</string>
+    <string name="restar_1">Restar 1</string>
+    <string name="res">%d</string>
+    <string name="anterior">Anterior</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="im_genes">Imágenes</string>
+    <string name="checkbox">CheckBox</string>
+    <string-array name="spinner1">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+        <item>Domingo</item>
+    </string-array>
+</resources>
